@@ -32,7 +32,7 @@ runner.listen(() => {
 
 app  -- Express app instance
 env -- production, test or development.
-When env is set to production or test, app runs in just one single process just as express would have. When env is set to production app runs on spawned process equal to the number od CPU cores available.
+When env is set to development or test, app runs in just one single process just as express would have. When env is set to production app runs on spawned process equal to the number od CPU cores available.
 
 ## Run example
  #### Prerequisite
