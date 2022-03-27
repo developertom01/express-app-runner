@@ -2,9 +2,12 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
-    
+  # release:
+  #   types: [created]
+  push:
+    branches:
+      - master
+
 jobs:
   build:
     name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
