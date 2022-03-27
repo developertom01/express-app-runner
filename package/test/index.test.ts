@@ -1,3 +1,3 @@
-describe('No test yet', () => {
-  it('Testing loading');
+describe('Test app runner', () => {
+  it.todo('Test run function');
 });
