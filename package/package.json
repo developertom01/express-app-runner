@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,16 +31,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "express-app-runner",
+  "name": "express-worker-manager",
   "author": "tomyylee",
-  "module": "dist/express-app-runner.esm.js",
+  "module": "dist/express-worker-manager.esm.js",
   "size-limit": [
     {
-      "path": "dist/express-app-runner.cjs.production.min.js",
+      "path": "dist/express-worker-manager.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/express-app-runner.esm.js",
+      "path": "dist/express-worker-manager.esm.js",
       "limit": "10 KB"
     }
   ],
@@ -56,7 +56,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/developertom01/express-app-runner.git"
+    "url": "https://github.com/developertom01/express-worker-manager.git"
   },
   "dependencies": {
     "express": "^4.17.3",
