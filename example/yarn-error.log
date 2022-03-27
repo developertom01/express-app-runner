@@ -1,0 +1,36 @@
+Arguments: 
+  /home/tom/.nvm/versions/node/v14.18.3/bin/node /home/tom/.nvm/versions/node/v14.18.3/bin/yarn init
+
+PATH: 
+  /home/tom/workspace/webdriver:/home/tom/.vscode-server/bin/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/bin/remote-cli:/home/tom/.local/bin:/home/tom/workspace/webdriver:/home/tom/.nvm/versions/node/v14.18.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/home/tom/workspace/webdriver:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/tom/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/tom/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/webdrivers:/mnt/c/Users/tom/AppData/Roaming/npm:/mnt/c/terraform:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/tom/.nvm/versions/node/v14.18.3/lib/node_modules/yarn/lib/cli.js:137143:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:1001:16)
+      at ReadStream.onkeypress (readline.js:265:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1270:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:293:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
