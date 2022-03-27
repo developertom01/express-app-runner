@@ -1,3 +1,3 @@
 describe('No test yet', () => {
-    it("Testing loading")
+  it('Testing loading');
 });
