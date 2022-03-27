@@ -54,7 +54,10 @@
     "tslib": "^2.3.1",
     "typescript": "^4.6.3"
   },
-  "repository": "https://github.com/developertom01/express-app-runner.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developertom01/express-app-runner.git"
+  },
   "dependencies": {
     "express": "^4.17.3",
     "jest": "^27.5.1"
