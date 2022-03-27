@@ -1,4 +1,4 @@
-# Express app runner
+# Express worker manager
 
 Node js runtime is the same as the v8 chrome engine which uses the event loop technique. 
 This means a node js application uses 1 core of your cpu for an instance.
@@ -34,6 +34,17 @@ app  -- Express app instance
 env -- production, test or development.
 When env is set to production or test, app runs in just one single process just as express would have. When env is set to production app runs on spawned process equal to the number od CPU cores available.
 
+## Run example
+ #### Prerequisite
+ - Nodejs version 14 or 16
 
+#### Run
+```sh
+$ cd example
+$ yarn install
+$ yarn link express-worker-manager
+$ yarn start
+
+```
 
 ### Issues with node 15

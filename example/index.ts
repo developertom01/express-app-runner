@@ -1,5 +1,5 @@
 import express from "express";
-import AppRunner from "express-app-runner";
+import AppRunner from "express-worker-manager";
 
 const app = express();
 
