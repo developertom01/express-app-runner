@@ -28,16 +28,11 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Change to package dir
-        run: cd package
-
-      - name: Install deps and build (with cache)
-        run: yarn install
-
-      - name: Lint
-        run: yarn lint
-
-      - name: Test
-        run: yarn test --ci --coverage --maxWorkers=2
+        run: |
+          cd package
+          yarn install
+          yarn lint
+          yarn test --ci --coverage --maxWorkers=2
 
   publish-npm:
     needs: build
