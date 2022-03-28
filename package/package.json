@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -61,5 +61,13 @@
   "dependencies": {
     "express": "^4.17.3",
     "jest": "^27.5.1"
-  }
+  },
+  "keywords": [
+    "express",
+    "cluster",
+    "performance",
+    "worker",
+    "process",
+    "non-blocking"
+  ]
 }

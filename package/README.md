@@ -1,4 +1,5 @@
 # Express worker manager
+A process manager for express application
 
 Node js runtime was built on the v8 chrome engine which uses the event loop technique. 
 This means a node js application uses 1 core of your cpu for an instance.
